@@ -47,6 +47,7 @@
 \definecolor{NordPolarNight2}{HTML}{3b4252}
 \definecolor{NordPolarNight3}{HTML}{434c5e}
 \definecolor{NordPolarNight4}{HTML}{4c566a}
+\definecolor{NordPolarNight5}{HTML}{7b8394}
 
 
 \definecolor{WhiteBG}{HTML}{FBFBFC}
@@ -54,6 +55,8 @@
 \definecolor{NordSnowStorm1}{HTML}{eceff4}
 \definecolor{NordSnowStorm2}{HTML}{e5e9f0}
 \definecolor{NordSnowStorm3}{HTML}{d8dee9}
+\definecolor{NordSnowStorm4}{HTML}{a9b1bf}
+\definecolor{NordSnowStorm5}{HTML}{929aaa}
 
 \pagecolor{WhiteBG}
 
@@ -78,9 +81,16 @@
 \colorlet{linux}{NordPolarNight0}
 \colorlet{tech}{NordPolarNight1}
 \colorlet{midaccent}{NordFrost2}
+\colorlet{arrowitems}{NordSnowStorm4}
+\colorlet{techitems}{NordSnowStorm4}
+\colorlet{technames}{NordPolarNight4}
+\colorlet{languages}{NordSnowStorm4}
+% \colorlet{languages}{NordFrost2}
 \colorlet{description}{NordPolarNight1}
 \colorlet{link}{NordPolarNight4}
-\colorlet{icons}{NordPolarNight4}
+% \colorlet{icons}{NordPolarNight4}
+\colorlet{icons}{NordSnowStorm4}
+\colorlet{DateLocation}{NordPolarNight1}
 
 \newcommand{\itemmarker}{{\small\color{midaccent}\faAngleRight}}
 
@@ -100,7 +110,7 @@
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
-\newcommand{\divider}{\textcolor{divider}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}}
+\newcommand{\divider}{\textcolor{divider}{\hdashrule{\linewidth}{0.4pt}{0.5ex}}}
 
 \newenvironment{fullwidth}{%
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
@@ -118,20 +128,22 @@
 \newcommand{\instagramsymbol}{\faInstagram}
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2\hspace{2em}}}
+\newcommand{\printshorterinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2\hspace{1em}}}
+\newcommand{\printlastinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2}}
 
 \newcommand{\name}[1]{\def\@name{#1}}
 \newcommand{\tagline}[1]{\def\@tagline{#1}}
 \newcommand{\photo}[2]{\def\@photo{#2}\def\@photodiameter{#1}}
 \newcommand{\email}[1]{\printinfo{\emailsymbol}{#1}}
 \newcommand{\mailaddress}[1]{\printinfo{\mailsymbol}{#1}}
-\newcommand{\phone}[1]{\printinfo{\phonesymbol}{#1}}
+\newcommand{\phone}[1]{\printshorterinfo{\phonesymbol}{#1}}
 \newcommand{\homepage}[1]{\printinfo{\homepagesymbol}{#1}}
 \newcommand{\twitter}[1]{\printinfo{\twittersymbol}{#1}}
 \newcommand{\linkedin}[1]{\printinfo{\linkedinsymbol}{#1}}
 \newcommand{\github}[1]{\printinfo{\githubsymbol}{#1}}
 \newcommand{\instagram}[1]{\printinfo{\instagramsymbol}{#1}}
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
-\newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
+\newcommand{\location}[1]{\printlastinfo{\locationsymbol}{#1}}
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
@@ -166,13 +178,13 @@
   % {\large\color{emphasis}\bfseries#1\par}
   {\large\color{emphasis}\bfseries#1\hfill} % Title of the event
   \smallskip\normalsize
-  \ifstrequal{#3}{}{}{{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}\par} % Date
+  \ifstrequal{#3}{}{}{{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}#3}}\par} % Date
   % \ifstrequal{#2}{}{}{}\par} % Name of the company
   % \ifstrequal{#2}{}{}{{\makebox[0.3\linewidth][l]{\textbf{\color{accent}#2}\par}}}%
   % \ifstrequal{#3}{}{}{{\small\makebox[0.4\linewidth][l]{\textbf{\color{accent}#2}}}} % Date
   % \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par % Location
   \ifstrequal{#3}{}{}{{\small\textbf{\color{accent}#2}}} % Date
-  \ifstrequal{#4}{}{}{{\hfill\small\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}\par % Location
+  \ifstrequal{#4}{}{}{{\hfill\small\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}#4}}}\par % Location
   % \smallskip
 }
 
@@ -181,8 +193,8 @@
   \smallskip\normalsize\par
   \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
   \smallskip\par
-  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}#3}}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}#4}}}}\par
   \smallskip
 }
 
@@ -190,9 +202,9 @@
   {\large\color{emphasis}\bfseries#1\par}
   \smallskip\normalsize
   \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#4}}}}%
-  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#3}}}}\par%
-  \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faExchange*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#5}}}}\par
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}\footnotesize#4}}}}%
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}\footnotesize#3}}}}\par%
+  \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faExchange*}\footnotesize\textcolor{DateLocation}{\hspace{0.5em}\footnotesize#5}}}}\par
   \smallskip
 }
 
