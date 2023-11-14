@@ -24,3 +24,20 @@ Configured pre-commit, pre-push, and CI/CD to improve the programming workflow a
 
 Successfully dealt with daylight saving time and timezone issues.
 Successfully fixed daylight saving time and timezone issues on server side by creating a new dataclass to handle all complexity
+
+
+
+## Most recent back-end development project
+My most recent back-end development project is a complex network of several micro-services that employ machine learning algorithms to estimate house appliances' energy consumption.
+
+In the course of three years, we have experimented with different Python web frameworks, such as Flask, and Tornado, before finally settling for FastAPI due to the fast development cycle we get from it.
+
+For the Database, we use four different kinds, depending on the requirements. Throughout my journey at DevGrid, I have worked with PostgreSQL (SQL), Cassandra (NoSQL), Redis (key-value) and S3 (object storage).
+
+The back-end services I have maintained the most utilizes the framework FastAPI and all four types of Database. It also interacts with a few Java services through a REST API.
+
+I was also partly responsible for: managing the Machine Learning library versioning and deployment; managing the CI/CD pipeline at GitLab; and generating metrics for Prometheus and tracing for Jaeger, as well as creating Grafana Dashboards.
+
+
+
+
