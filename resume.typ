@@ -139,9 +139,7 @@
 Managed several microservices that employ machine learning algorithms to estimate house appliances' energy consumption.
 
 #[
-
   #set text(size: 8pt)
-
   #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
 
   - Achieved up to 59% improvement in #link("https://www.python.org/")[Python] write operations on #link("https://cassandra.apache.org/")[Cassandra] through the safe utilization of unlogged batches.
@@ -150,6 +148,33 @@ Managed several microservices that employ machine learning algorithms to estimat
 
 #v(0.6em)
 #text(size: 10pt, weight: "semibold")[Embedded Software Developer]
+#h(1fr)
+#[
+  #set text(size: 7.5pt, weight: "regular")
+  #fa-icon("calendar", fill: theme.item, solid: false)
+  #h(0.2em)
+  #text(weight: "regular")[Nov 2019 -- Aug 2020]
+]
+#v(-0.4em)
+#link("https://www.autotrac.com.br/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[Autotrac]]
+#h(1fr)
+#[
+  #set text(size: 7.5pt, weight: "regular")
+  #fa-icon("location-dot", fill: theme.item, solid: false)
+  #h(0.1em)
+  #text(weight: "regular")[Brasília, DF - Brazil]
+]
+
+Maintained security and logistic features of an embedded system for a customized hardware and Linux kernel.
+
+#[
+  #set text(size: 8pt)
+  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+
+  - Employed dependency injection and other #link("http://staff.cs.utu.fi/staff/jouni.smed/doos_06/material/DesignPrinciplesAndPatterns.pdf")[SOLID principles] to enhance #link("https://www.cplusplus.com/")[C++] code quality and maintainability.
+  - Implemented #link("https://github.com/prometheus/node_exporter")[monitoring] solutions to gather real-time performance data, ensuring optimal system efficiency and responsiveness.
+]
+
 
 // #set terms(separator: [#fa-icon("chevron-right")  #h(0.5em)])
 / Ligature: A merged glyph.
