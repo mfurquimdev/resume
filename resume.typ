@@ -1,8 +1,3 @@
-// #text(
-//     align(center)
-//     text(13pt, weight: "regular")
-// )
-
 #import "@preview/fontawesome:0.5.0": *
 
 #let theme = (
@@ -17,7 +12,7 @@
 )
 
 #let config = (
-  "size": 10pt,
+  "size": 9pt,
   "footer": (
     "size": 0.61em,
     "transparentize": 25%,
@@ -29,8 +24,15 @@
 #set underline(offset: 0.2em)
 #set par(justify: true)
 
-#set text(font: "DejaVu Sans", fill: theme.primary, size: config.size)
+#set text(
+  font: "DejaVu Sans",
+  fill: theme.primary,
+  size: config.size
+)
 
+#show heading: smallcaps
+#show heading.where(level: 1): set text(fill: theme.accentColor, size: 16pt, weight: "medium", font:"NotoSans NF")
+#show heading: it => [#it #v(-1.1em) #line(length: 100%, stroke: theme.accentColor) ]
 
 #show "Made with": text(
   fill: theme.textPrimary.transparentize(config.footer.transparentize),
@@ -76,7 +78,7 @@
     #set text(size: 8pt, weight: "medium")
     #fa-icon("at", size: 7pt, fill: theme.accentColor, solid: true) #h(
       -0.2em,
-    ) #link("mailto:mfurquimdev@gmail.com")[mfurquimdev\@gmail.com] #h(1fr)
+    ) #link("mailto:mfurquimdev@gmail.com") #h(1fr)
     #fa-icon("git", fill: theme.accentColor, solid: true) #h(-0.1em) #text(
       "mfurquimdev",
     ) #h(1fr)
@@ -94,6 +96,24 @@
 // font: "MonaspiceAr NFP", // Mono Sans
 // font: "MonaspiceRn NFP", // Mono Script
 
+= Professional Summary
+
+#set par(first-line-indent: (amount: 2em, all: true))
+
+Highly skilled software engineer with over 9 years of experience and a diverse background.
+Committed to team growth and innovation through effective mentoring and collaboration.
+Strong problem-solving skills with a passion for delivering high-quality software solutions.
+
+
+= Work Experience
+
+In this report, we will explore the
+various factors that influence fluid
+dynamics in glaciers and how they
+contribute to the formation and
+behaviour of these natural structures.
+
+
 
 #grid(
   columns: (8fr, 0.5fr, 5fr),
@@ -106,17 +126,6 @@
     #lorem(20)
   ],
 )
-
-Dr. John Doe \
-Artos Institute \
-#link("mailto:doe@artos.edu")
-
-= Introduction
-In this report, we will explore the
-various factors that influence fluid
-dynamics in glaciers and how they
-contribute to the formation and
-behaviour of these natural structures.
 
 == Sub Heading
 
