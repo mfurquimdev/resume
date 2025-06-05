@@ -16,39 +16,50 @@
   "background": rgb("#f8f9fb"),
 )
 
+#let config = (
+  "size": 10pt,
+  "footer": (
+    "size": 0.61em,
+    "transparentize": 25%,
+  ),
+)
+
+#show link: emph
+// #show link: underline
+#set underline(offset: 0.2em)
+#set par(justify: true)
+
+#set text(font: "DejaVu Sans", fill: theme.primary, size: config.size)
+
+
+#show "Made with": text(
+  fill: theme.textPrimary.transparentize(config.footer.transparentize),
+  size: config.footer.size,
+)[Made with]
+#show "typst": text(
+  fill: theme.typst.transparentize(config.footer.transparentize),
+  font: "NotoSerif NF",
+  size: config.footer.size,
+)[typst]
 
 #set page(
   paper: "a4",
   margin: (x: 1.8cm, y: 1.5cm),
   fill: theme.background,
-  footer: align(
-    right + horizon,
-    text(fill: theme.textPrimary.transparentize(25%), size: .61em)[Made with ] +
-    text(fill: theme.typst.transparentize(25%), font: "NotoSerif NF", size: .61em)[typst],
-  )
-)
-
-#set text(
-  font: "DejaVu Sans",
-  fill: theme.primary,
-  size: 10pt
-)
-
-#place(top + left, float: true, scope: "parent", clearance: 0.65em)[
-  #par(justify: false)[
+  header: [
     #smallcaps[
       #text(
         font: "UbuntuSans NF",
-        // font: "Liberation Sans",
-        // font: "DejaVu Sans",
-        // font: "LiterationSans Nerd Font",
-        // font: "NotoSans NF",
         weight: "bold",
         size: 22pt,
         "Mateus M. Furquim Mendonça",
       )
     ]
-  ]
+  ],
+  footer: align(right + horizon, "Made with typst"),
+)
+
+#place(top + left, float: true, scope: "parent", clearance: 0.65em)[
   #par(justify: false)[
     #text(
       font: "UbuntuSans NF",
@@ -63,22 +74,26 @@
 #place(top + left, float: true, scope: "parent", clearance: 2em)[
   #par(justify: false)[
     #set text(size: 8pt, weight: "medium")
-    #fa-icon("at", size: 7pt, fill: theme.accentColor, solid: true) #h(-0.2em) #text("mfurquimdev@gmail.com") #h(1fr)
-    #fa-icon("git", fill: theme.accentColor, solid: true) #h(-0.1em) #text("mfurquimdev") #h(1fr)
-    #fa-icon("linkedin", fill: theme.accentColor, solid: true) #h(-0.1em) #text("in/mfurquimdev") #h(1fr)
-    #fa-icon("link", fill: theme.accentColor, solid: true) #h(-0.2em) #text("mfurquim.dev") #h(5fr)
-    #fa-icon("location-dot", fill: theme.accentColor, solid: true) #h(-0.1em) #text("Brazil")
+    #fa-icon("at", size: 7pt, fill: theme.accentColor, solid: true) #h(
+      -0.2em,
+    ) #link("mailto:mfurquimdev@gmail.com")[mfurquimdev\@gmail.com] #h(1fr)
+    #fa-icon("git", fill: theme.accentColor, solid: true) #h(-0.1em) #text(
+      "mfurquimdev",
+    ) #h(1fr)
+    #fa-icon("linkedin", fill: theme.accentColor, solid: true) #h(-0.1em) #text(
+      "in/mfurquimdev",
+    ) #h(1fr)
+    #fa-icon("link", fill: theme.accentColor, solid: true) #h(-0.2em) #text(
+      "mfurquim.dev",
+    ) #h(5fr)
+    #fa-icon("location-dot", fill: theme.accentColor, solid: true) #h(
+      -0.1em,
+    ) #text("Brazil")
   ]
 ]
 // font: "MonaspiceAr NFP", // Mono Sans
 // font: "MonaspiceRn NFP", // Mono Script
 
-
-#set par(justify: true)
-
-// #align(center, text(17pt)[
-//   *#title*
-// ])
 
 #grid(
   columns: (8fr, 0.5fr, 5fr),
