@@ -240,6 +240,38 @@ Collaborated with multiple teams to improve observability of the back-end servic
       - Successfully detected masked malicious network packets using #link("https://en.wikipedia.org/wiki/K-means_clustering")[K-Means clustering] algorithm and distributed processing with #link("https://spark.apache.org/")[Spark] and #link("https://hadoop.apache.org/")[Hadoop].
     ]
 
+    #v(0.6em)
+
+    #text(size: 10pt, weight: "semibold")[Software Engineer Intern]
+    #h(1fr)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("calendar", fill: theme.item, solid: false)
+      #h(0.2em)
+      #text(weight: "regular")[Nov 2015 -- Jul 2016]
+    ]
+    #v(-0.4em)
+    #link("https://web.archive.org/web/20150619063918/https://www.canassist.ca/EN/main/latest-news/2015-news-archive/canassist-welcomes-new-group-of-students.html")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[CanAssist]]
+    #text(size: 8pt, weight: "semibold", fill: theme.accentColor)[at]
+    #link("https://www.uvic.ca/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[UVic]]
+    #h(1fr)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #h(0.1em)
+      #text(weight: "regular")[Brasilia, DF - Brazil]
+    ]
+    
+    Enhanced an Intrusion Detection System with unsupervised machine learning to strengthen the security measures of the Brazilian Army.
+    
+    #[
+      #set text(size: 8pt)
+      #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+
+      - Devised an automated data-driven #link("https://en.wikipedia.org/wiki/Regression_testing")[regression testing] methodology, improving the efficiency of the testing cycle and ensuring alignment with requirements.
+      - Accomplished a low resource consumption of #link("https://www.raspberrypi.org/")[Raspberry Pi] by rotating log using the #link("https://www.cplusplus.com/")[C/C++] language and the #link("https://www.qt.io/")[Qt] Framework.
+    ]
+
   ],
   align(left)[
   ],
