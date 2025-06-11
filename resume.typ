@@ -314,6 +314,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
       #fa-icon("location-dot", fill: theme.item, solid: false)
       #h(0.1em)
       #text(weight: "regular")[Victoria, BC - Canada]
+      #fa-icon("canadian-maple-leaf", fill: theme.item, solid: false)
       #h(1fr)
       #fa-icon("calendar", fill: theme.item, solid: false)
       #h(0.2em)
@@ -342,3 +343,23 @@ Collaborated with multiple teams to improve observability of the back-end servic
   ],
 )
 
+#v(1fr)
+
+#fa-icon("linux", fill: theme.item, solid: false) #h(0.1em) #link("https://nixos.org")[#text(weight: "regular")[Linux]]
+#h(1fr)
+#fa-icon("terminal", fill: theme.item, solid: false) #h(0.1em) #link("https://www.gnu.org/software/bash/")[#text(weight: "regular")[Bash]]
+#h(1fr)
+#fa-icon("asterisk", fill: theme.item, solid: false) #h(0.1em) #link("https://regex101.com/")[#text(weight: "regular")[Regex]]
+#h(1fr)
+#fa-icon("code-branch", fill: theme.item, solid: false) #h(0.1em) #link("https://docs.github.com/en/get-started/quickstart/github-flow")[#text(weight: "regular")[GitFlow]]
+#h(1fr)
+#fa-icon("cogs", fill: theme.item, solid: false) #h(0.1em) #link("https://about.gitlab.com/topics/ci-cd/")[#text(weight: "regular")[CI/CD]]
+#h(1fr)
+#fa-icon("docker", fill: theme.item, solid: false) #h(0.1em) #link("https://www.docker.com/")[#text(weight: "regular")[Docker]]
+#h(1fr)
+#fa-icon("python", fill: theme.item, solid: false) #h(0.1em) #link("https://fastapi.tiangolo.com/")[#text(weight: "regular")[RESTful]]
+#h(1fr)
+#fa-icon("database", fill: theme.item, solid: false) #h(0.1em)
+#link("https://www.postgresql.org")[#text(weight: "regular")[SQL]]
+#text(fill: theme.accentColor)[/]
+#link("https://cassandra.apache.org/")[#text(weight: "regular")[NoSQL]]
