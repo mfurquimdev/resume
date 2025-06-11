@@ -85,18 +85,18 @@
     ]
     #fa-icon("git", fill: theme.accentColor, solid: true)
     #h(-0.1em)
-    #text("mfurquimdev")
+    mfurquimdev
     #h(1fr)
     #fa-icon("linkedin", fill: theme.accentColor, solid: true)
     #h(-0.1em)
-    #text("in/mfurquimdev")
+    in/mfurquimdev
     #h(1fr)
     #fa-icon("link", fill: theme.accentColor, solid: true)
     #h(-0.2em)
-    #text("mfurquim.dev")
-    #h(5fr)
+    mfurquim.dev
+    #h(8fr)
     #fa-icon("location-dot", fill: theme.accentColor, solid: true)
-    #text("Brazil")
+    Brazil
   ]
 ]
 
@@ -175,6 +175,60 @@ Maintained security and logistic features of an embedded system for a customized
   - Implemented #link("https://github.com/prometheus/node_exporter")[monitoring] solutions to gather real-time performance data, ensuring optimal system efficiency and responsiveness.
 ]
 
+#v(0.6em)
+#text(size: 10pt, weight: "semibold")[DevOps Consultant]
+#h(1fr)
+#[
+  #set text(size: 7.5pt, weight: "regular")
+  #fa-icon("calendar", fill: theme.item, solid: false)
+  #h(0.2em)
+  #text(weight: "regular")[Jan 2019 -- Nov 2019]
+]
+#v(-0.4em)
+#link("https://www.ibm.com/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[IBM]]
+#h(1fr)
+#[
+  #set text(size: 7.5pt, weight: "regular")
+  #fa-icon("location-dot", fill: theme.item, solid: false)
+  #h(0.1em)
+  #text(weight: "regular")[Brasília, DF - Brazil]
+]
+
+Collaborated with multiple teams to improve observability of the back-end services of a prominent banking institution.
+
+#[
+  #set text(size: 8pt)
+  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+
+  - Contributed to self-discovering services feature using #link("https://etcd.io/")[etcd] key-value store, #link("https://en.wikipedia.org/wiki/Consistent_hashing")[consistent hashing] and a #link("https://prometheus.io/docs/prometheus/latest/federation/#federation")[federation of Prometheus].
+  - Employed #link("https://prometheus.io/docs/prometheus/latest/querying/basics/")[PromQL] to develop alerts that detected low performance of new deployments and potential DDoS attacks.
+]
+
+#grid(
+  columns: (8fr, 0.5fr, 5fr),
+  align(left)[
+    = Intern Experience
+  ],
+  align(left)[
+  ],
+  align(left)[
+    = Education
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #h(0.1em)
+      #text(weight: "regular")[Online]
+      #h(1fr)
+      #fa-icon("calendar", fill: theme.item, solid: false)
+      #h(0.2em)
+      #text(weight: "regular")[Nov 2021 -- Dez 2022]
+    ]
+    = Languages
+  ],
+)
+
+
+
 
 // #set terms(separator: [#fa-icon("chevron-right")  #h(0.5em)])
 / Ligature: A merged glyph.
@@ -188,18 +242,6 @@ contribute to the formation and
 behaviour of these natural structures.
 
 
-
-#grid(
-  columns: (8fr, 0.5fr, 5fr),
-  align(center)[
-    #lorem(20)
-  ],
-  align(center)[
-  ],
-  align(center)[
-    #lorem(20)
-  ],
-)
 
 == Sub Heading
 
