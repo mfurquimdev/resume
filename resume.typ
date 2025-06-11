@@ -7,6 +7,7 @@
   "textPrimary": rgb("#2e3440"),
   "textSecondary": rgb("#3b4252"),
   "item": rgb("#a9b1bf"),
+  "divider": rgb("#d8dee9"),
   // "textTertiary": rgb(),
   "typst": rgb("#239dae"),
   "background": rgb("#f8f9fb"),
@@ -162,7 +163,7 @@ Managed several microservices that employ machine learning algorithms to estimat
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("location-dot", fill: theme.item, solid: false)
   #h(0.1em)
-  #text(weight: "regular")[Brasília, DF - Brazil]
+  #text(weight: "regular")[Brasilia, DF - Brazil]
 ]
 
 Maintained security and logistic features of an embedded system for a customized hardware and Linux kernel.
@@ -191,7 +192,7 @@ Maintained security and logistic features of an embedded system for a customized
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("location-dot", fill: theme.item, solid: false)
   #h(0.1em)
-  #text(weight: "regular")[Brasília, DF - Brazil]
+  #text(weight: "regular")[Brasilia, DF - Brazil]
 ]
 
 Collaborated with multiple teams to improve observability of the back-end services of a prominent banking institution.
@@ -204,6 +205,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
   - Employed #link("https://prometheus.io/docs/prometheus/latest/querying/basics/")[PromQL] to develop alerts that detected low performance of new deployments and potential DDoS attacks.
 ]
 
+#v(0.6em)
 #grid(
   columns: (8fr, 0.5fr, 5fr),
   align(left)[
@@ -213,6 +215,10 @@ Collaborated with multiple teams to improve observability of the back-end servic
   ],
   align(left)[
     = Education
+    #text(size: 10pt, weight: "semibold")[Machine Learning DevOps Engineer]
+    #v(-0.6em)
+    #link("https://confirm.udacity.com/VWERCDCT")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[Udacity]]
+    #v(-0.4em)
     #[
       #set text(size: 7.5pt, weight: "regular")
       #fa-icon("location-dot", fill: theme.item, solid: false)
@@ -223,98 +229,54 @@ Collaborated with multiple teams to improve observability of the back-end servic
       #h(0.2em)
       #text(weight: "regular")[Nov 2021 -- Dez 2022]
     ]
+
+    #text(size: 10pt, weight: "semibold")[BEng. Software Engineering]
+    #v(-0.6em)
+    #link("https://fga.unb.br/software")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[Universidade de Brasilia (UnB)]]
+    #v(-0.4em)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #h(0.1em)
+      #text(weight: "regular")[Brasilia, DF - Brazil]
+      #h(1fr)
+      #fa-icon("calendar", fill: theme.item, solid: false)
+      #h(0.2em)
+      #text(weight: "regular")[Mar 2011 -- Jul 2017]
+    ]
+
+    #link("https://www.uvic.ca/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[University of Victoria (UVic)]]
+    #v(-0.4em)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #h(0.1em)
+      #text(weight: "regular")[Victoria, BC - Canada]
+      #h(1fr)
+      #fa-icon("calendar", fill: theme.item, solid: false)
+      #h(0.2em)
+      #text(weight: "regular")[Jan 2014 -- Apr 2015]
+    ]
     = Languages
+    #[
+      #set text(size: 8pt)
+      #set list(marker: [#fa-icon("comments", fill: theme.item, solid: true, size: 7pt)])
+    
+      - Portuguese #h(1fr) #text(fill: theme.accentColor)[Mother Tongue]
+      - English #h(1fr) #text(fill: theme.accentColor)[Fluent]
+    ]
+    
+    #line(length: 100%, stroke: (paint: theme.divider, thickness: 1pt, dash: "dashed"))
+
+    #[
+      #set text(size: 8pt)
+      #set list(marker: [#fa-icon("code", fill: theme.item, solid: true, size: 7pt)])
+    
+      - Python #h(1fr) #text(fill: theme.accentColor)[Working Knowledge]
+      - C/C++ #h(1fr) #text(fill: theme.accentColor)[Working Knowledge]
+      - Go #h(1fr) #text(fill: theme.accentColor)[Intermediate Knowledge]
+      - Rust #h(1fr) #text(fill: theme.accentColor)[Basic Knowledge]
+    ]
   ],
 )
 
-
-
-
-// #set terms(separator: [#fa-icon("chevron-right")  #h(0.5em)])
-/ Ligature: A merged glyph.
-/ Kerning: A spacing adjustment
-  between two adjacent letters.
-
-In this report, we will explore the
-various factors that influence fluid
-dynamics in glaciers and how they
-contribute to the formation and
-behaviour of these natural structures.
-
-
-
-== Sub Heading
-
-+ The climate
-  - Temperature
-  - Precipitation
-+ The topography
-+ The geology
-
-The equation $Q = rho A v + C$
-defines the glacial flow rate.
-
-
-The flow rate of a glacier is
-defined by the following equation:
-
-$ Q = rho A v + C $
-
-The flow rate of a glacier is given
-by the following equation:
-
-$ Q = rho A v + "time offset" $
-
-Total displaced soil by glacial flow:
-
-$
-  7.32 beta +
-  sum_(i=0)^nabla Q_i / 2
-$
-
-Total displaced soil by glacial flow:
-
-$
-  7.32 beta +
-  sum_(i=0)^nabla
-  (Q_i (a_i - epsilon)) / 2
-$
-
-$ v := vec(x_1, x_2, x_3) $
-
-
-$ a arrow.squiggly b $
-
-
-Number: #(1 + 2)
-
-$-x$ is the opposite of $x$
-
-let name = [*Typst!*]
-
-
-parbreak()
-
-*strong*
-_emphasis_
-`print(1)`
-https://typst.app/
-<intro>
-= Heading
-- item
-+ item
-/ Term: description
-$x^2$
-\
-'single' or "double"
-~, ---
-#rect(width: 1cm)
-Tweet at us \#ad
-/* block */, // line
-
-$x^2$
-$ x^2 $
-$x_1$
-$x^2$
-$1 + (a+b) / 5$
-$x \ y$
