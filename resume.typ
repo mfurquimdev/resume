@@ -248,7 +248,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
       #set text(size: 7.5pt, weight: "regular")
       #fa-icon("calendar", fill: theme.item, solid: false)
       #h(0.2em)
-      #text(weight: "regular")[Nov 2015 -- Jul 2016]
+      #text(weight: "regular")[Jan 2015 -- Apr 2015]
     ]
     #v(-0.4em)
     #link("https://web.archive.org/web/20150619063918/https://www.canassist.ca/EN/main/latest-news/2015-news-archive/canassist-welcomes-new-group-of-students.html")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[CanAssist]]
@@ -262,7 +262,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
       #text(weight: "regular")[Brasilia, DF - Brazil]
     ]
     
-    Enhanced an Intrusion Detection System with unsupervised machine learning to strengthen the security measures of the Brazilian Army.
+    Developed an elderly care embedded system which notifies relatives in case of emergency.
     
     #[
       #set text(size: 8pt)
