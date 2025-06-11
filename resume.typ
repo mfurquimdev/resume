@@ -210,6 +210,36 @@ Collaborated with multiple teams to improve observability of the back-end servic
   columns: (8fr, 0.5fr, 5fr),
   align(left)[
     = Intern Experience
+    #text(size: 10pt, weight: "semibold")[Security Software Researcher]
+    #h(1fr)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("calendar", fill: theme.item, solid: false)
+      #h(0.2em)
+      #text(weight: "regular")[Nov 2015 -- Jul 2016]
+    ]
+    #v(-0.4em)
+    #link("https://fga.unb.br/lades/projetos")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[LADES]]
+    #text(size: 8pt, weight: "semibold", fill: theme.accentColor)[at]
+    #link("https://fga.unb.br/software")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[UnB]]
+    #h(1fr)
+    #[
+      #set text(size: 7.5pt, weight: "regular")
+      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #h(0.1em)
+      #text(weight: "regular")[Brasilia, DF - Brazil]
+    ]
+    
+    Enhanced an Intrusion Detection System with unsupervised machine learning to strengthen the security measures of the Brazilian Army.
+    
+    #[
+      #set text(size: 8pt)
+      #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+
+      - Configured a #link("https://www.debian.org/")[Debian] server to capture all network packets in promiscuous mode using #link("https://www.wireshark.org/")[Wireshark] and replay them in a controlled environment.
+      - Successfully detected masked malicious network packets using #link("https://en.wikipedia.org/wiki/K-means_clustering")[K-Means clustering] algorithm and distributed processing with #link("https://spark.apache.org/")[Spark] and #link("https://hadoop.apache.org/")[Hadoop].
+    ]
+
   ],
   align(left)[
   ],
