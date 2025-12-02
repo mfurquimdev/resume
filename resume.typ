@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.5.0": *
+#import "@preview/fontawesome:0.6.0": *
 
 #let theme = (
   "primary": rgb("#242933"),
@@ -26,7 +26,7 @@
 #set par(justify: true)
 
 #set text(
-  font: "DejaVu Sans",
+  font: "NotoSans NF",
   fill: theme.primary,
   size: config.size
 )
@@ -52,7 +52,7 @@
   header: [
     #smallcaps[
       #text(
-        font: "UbuntuSans NF",
+        font: "NotoSans NF",
         weight: "bold",
         size: 22pt,
         "Mateus M. Furquim Mendonça",
@@ -65,7 +65,7 @@
 #place(top + left, float: true, scope: "parent", clearance: 0.65em)[
   #par(justify: false)[
     #text(
-      font: "UbuntuSans NF",
+      font: "NotoSans NF",
       weight: "bold",
       size: 12pt,
       fill: theme.accentColor,
@@ -111,7 +111,7 @@
 #[
   #set par(first-line-indent: (amount: 2em, all: true))
 
-  Highly skilled software engineer with over 9 years of experience and a diverse background.
+  Highly skilled software engineer with over 10 years of experience and a diverse background.
   Committed to team growth and innovation through effective mentoring and collaboration.
   Strong problem-solving skills with a passion for delivering high-quality software solutions.
 ]
@@ -119,34 +119,37 @@
 
 = Work Experience
 
-#text(size: 10pt, weight: "semibold")[Tech Lead]
+#text(size: 10pt, weight: "semibold")[Machine Learning Engineer]
 #h(1fr)
 #[
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("calendar", fill: theme.item, solid: false)
   #h(0.2em)
-  #text(weight: "regular")[Nov 2024 -- Present]
+  #text(weight: "regular")[Jul 2025 -- Present]
 ]
 #v(-0.4em)
-#link("https://devgrid.co.uk/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[DevGrid]]
+#link("https://amaris.com")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[Amaris]]
 #text(size: 8pt, weight: "semibold", fill: theme.item)[|]
-#link("https://voltaware.com")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[Voltaware]]
+#link("https://www.ab-inbev.com")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[AB InBev]]
 #h(1fr)
 #[
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("location-dot", fill: theme.item, solid: false)
   #h(0.1em)
-  #text(weight: "regular")[United Kingdom (Remote)]
+  #text(weight: "regular")[Remote]
 ]
 
-Re-designed core service to be aligned with MLOps best practices
+
+Developed scalable microservices using a multi-tier routing topology in RabbitMQ to decouple publish-subscribe communication.
 
 #[
   #set text(size: 8pt)
-  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+  #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
-  - Review several MR, totallying more than a hundred thousand lines of code, guaranteing consistency and code quality.
-  - Iteratively improved domain models following #link("https://books.google.com.br/books/about/Domain_Driven_Design.html")[Domain Driven Design] approach, increasing efficiency in delivering new features.
+- Implemented an in-memory Redis caching layer to meet low-latency requirements for real-time AI model inference.
+- Applied the Repository Pattern abstract data access logic, allowing for parallel development across teams and improving code maintainability.
+- Monitored production performance and system health using New Relic, ensuring high availability and reliability of deployed ML services.
+
 ]
 
 #v(0.6em)
@@ -156,7 +159,7 @@ Re-designed core service to be aligned with MLOps best practices
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("calendar", fill: theme.item, solid: false)
   #h(0.2em)
-  #text(weight: "regular")[Jan 2021 -- Nov 2024]
+  #text(weight: "regular")[Jan 2021 -- Jul 2025]
 ]
 #v(-0.4em)
 #link("https://devgrid.co.uk/")[#text(size: 8pt, weight: "semibold", fill: theme.accentColor)[DevGrid]]
@@ -167,14 +170,14 @@ Re-designed core service to be aligned with MLOps best practices
   #set text(size: 7.5pt, weight: "regular")
   #fa-icon("location-dot", fill: theme.item, solid: false)
   #h(0.1em)
-  #text(weight: "regular")[United Kingdom (Remote)]
+  #text(weight: "regular")[Remote]
 ]
 
 Managed several microservices that employ machine learning algorithms to estimate house appliances' energy consumption.
 
 #[
   #set text(size: 8pt)
-  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+  #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
   - Achieved up to 59% improvement in #link("https://www.python.org/")[Python] write operations on #link("https://cassandra.apache.org/")[Cassandra] through the safe utilization of unlogged batches.
   - Iteratively improved domain models following #link("https://books.google.com.br/books/about/Domain_Driven_Design.html")[Domain Driven Design] approach, increasing efficiency in delivering new features.
@@ -203,7 +206,7 @@ Maintained security and logistic features of an embedded system for a customized
 
 #[
   #set text(size: 8pt)
-  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+  #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
   - Employed dependency injection and other #link("http://staff.cs.utu.fi/staff/jouni.smed/doos_06/material/DesignPrinciplesAndPatterns.pdf")[SOLID principles] to enhance #link("https://www.cplusplus.com/")[C++] code quality and maintainability.
   - Implemented #link("https://github.com/prometheus/node_exporter")[monitoring] solutions to gather real-time performance data, ensuring optimal system efficiency and responsiveness.
@@ -232,7 +235,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
 
 #[
   #set text(size: 8pt)
-  #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+  #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
   - Contributed to self-discovering services feature using #link("https://etcd.io/")[etcd] key-value store, #link("https://en.wikipedia.org/wiki/Consistent_hashing")[consistent hashing] and a #link("https://prometheus.io/docs/prometheus/latest/federation/#federation")[federation of Prometheus].
   - Employed #link("https://prometheus.io/docs/prometheus/latest/querying/basics/")[PromQL] to develop alerts that detected low performance of new deployments and potential DDoS attacks.
@@ -267,7 +270,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
     
     #[
       #set text(size: 8pt)
-      #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+      #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
       - Configured a #link("https://www.debian.org/")[Debian] server to capture all network packets in promiscuous mode using #link("https://www.wireshark.org/")[Wireshark] and replay them in a controlled environment.
 
@@ -300,7 +303,7 @@ Collaborated with multiple teams to improve observability of the back-end servic
     
     #[
       #set text(size: 8pt)
-      #set list(marker: [#fa-icon("angle-right", fill: theme.item, solid: true)])
+      #set list(marker: [#v(-0.3em)#fa-icon("angle-right", fill: theme.item, solid: true)], spacing: 0.8em)
 
       - Devised an automated data-driven #link("https://en.wikipedia.org/wiki/Regression_testing")[regression testing] methodology, improving the efficiency of the testing cycle and ensuring alignment with requirements.
 
