@@ -1,0 +1,168 @@
+Mateus M. Furquim Mendonça
+Engenheiro de Software e Machine Learning
+@ mfurquimdev@gmail.com
+
+ mfurquimdev
+
+ in/mfurquimdev
+
+ mfurquim.dev
+
+ Brazil
+
+Resumo Profissional
+Engenheiro de Software com mais de 10 anos de experiência, atuando em áreas como Engenharia de Machine Learning, Desenvolvi­
+mento Back-end e DevOps. Especialista em Python, mensageria RabbitMQ e banco de dados NoSQL (Cassandra). Comprometido com o
+crescimento da equipe e a inovação por meio de mentoria e colaboração.
+
+Experiência Profissional
+Engenheiro de Machine Learning
+
+ Jul 2025 – Dez 2025
+
+Amaris | AB InBev
+
+ Remoto - USA
+
+Desenvolvi e monitorei o desempenho em produção de microsserviços escaláveis para inferência de modelos IA em tempo real.
+ Implementei cache em memória com Redis para atender requisitos de baixa latência
+ Garanti o desacoplamento da comunicação publish-subscribe através de uma topologia de roteamento multicamadas no RabbitMQ.
+ Apliquei o Padrão Repository para abstrair a lógica de acesso a dados, permitindo desenvolvimento paralelo entre equipes.
+
+Desenvolvedor Back-end
+
+ Jan 2021 – Jul 2025
+
+DevGrid | Voltaware
+
+ Remoto - Londres
+
+Gerenciei microsserviços que empregam algoritmos de aprendizado de máquina para estimar o consumo de energia de eletrodomésticos.
+ Liderei a equipe de desenvolvedores e cientistas, garantindo
+ Alcancei uma melhoria de até 59% em operações de escrita em Python no Cassandra através da utilização segura de unlogged batches.
+ Melhorei os modelos de domínio seguindo a abordagem de Domain Driven Design, aumentando a eficiência na entrega de novas funcionalidades.
+
+Desenvolvedor de Software Embarcado
+
+ Nov 2019 – Ago 2020
+
+Autotrac
+
+ Brasília, DF - Brazil
+
+Mantive funcionalidades de segurança e logística de um sistema embarcado para um hardware e kernel Linux customizados.
+ Empreguei injeção de dependência e outros princípios SOLID para melhorar a qualidade e a manutenibilidade do código em C++.
+ Implementei soluções de monitoramento para coletar dados de desempenho em tempo real, garantindo eficiência e resposta ideais do sistema.
+
+Consultor DevOps
+
+ Jan 2019 – Nov 2019
+
+IBM
+
+ Brasília, DF - Brazil
+
+Colaborei com várias equipes para melhorar a observabilidade dos serviços de back-end de uma instituição bancária de grande porte.
+ Contribuí para a funcionalidade de auto-descoberta de serviços usando o banco etcd, hashing consistente e uma federação de Prometheus.
+ Utilizei PromQL para desenvolver alertas que detectavam baixo desempenho de novas implantações e possíveis ataques DDoS.
+
+Experiência de Estágio
+
+Formação Acadêmica
+
+Pesquisador em Software de Segurança
+
+ Nov 2015 – Jul 2016
+
+Engenheiro DevOps de Machine Learning
+
+ Brasília, DF - Brazil
+
+Udacity
+
+Aprimorei um Sistema de Detecção de Intrusões com aprendizado de máquina não
+supervisionado para fortalecer as medidas de segurança do Exército Brasileiro.
+
+ Online
+
+ Configurei um servidor Debian para capturar todos os pacotes de rede em modo
+promíscuo usando o Wireshark e reproduzi-los em um ambiente controlado.
+ Detectei com sucesso pacotes de rede maliciosos mascarados usando o algoritmo de
+K-Means clustering e processamento distribuído com Spark e Hadoop.
+
+Universidade de Brasilia (UnB)
+
+LADES at UnB
+
+Estagiário de Engenharia de Software
+
+ Jan 2015 – Apr 2015
+
+CanAssist at UVic
+
+ Victoria, BC - Canadá
+
+Desenvolvi um sistema embarcado de cuidados para idosos que notifica parentes
+em caso de emergência.
+ Elaborei uma metodologia automatizada de teste de regressão baseada em dados,
+melhorando a eficiência do ciclo de testes e garantindo o alinhamento com os requi­
+sitos.
+ Garanti um baixo consumo de recursos do Raspberry Pi através da rotação de logs
+usando as linguagens C/C++ e o QtFramework.
+
+ Linux
+
+ Bash
+
+* Regex
+
+ GitFlow
+
+ CI/CD
+
+ Nov 2021 – Dez 2022
+
+Engenharia de Software, Bacharelado
+ Brasília, DF - Brazil
+
+ Mar 2011 – Jul 2017
+
+University of Victoria (UVic)
+ Victoria, BC - Canadá 
+
+ Jan 2014 – Apr 2015
+
+Linguagens
+ Portuguese
+
+Língua Materna
+
+ English
+
+Fluente
+
+ Python
+
+Avançado
+
+ C/C++
+
+Avançado
+
+ Go
+
+Intermediário
+
+ Rust
+
+ Docker
+
+Básico
+
+ RESTful
+
+ SQL / NoSQL
+
+Made with typst
+
+

@@ -1,116 +1,165 @@
-MATEUS M. FURQUIM MENDONCA
-Machine Learning Engineer & Backend Developer
-mfurquimdev@gmail.com
-+55 (61) 9 8189-2456
+Mateus M. Furquim Mendonça
+Machine Learning and Software Engineer
+@ mfurquimdev@gmail.com
 
-https://www.github.com/mfurquimdev
-https://www.linkedin.com/in/mfurquimdev
-https://www.mfurquim.dev
+ mfurquimdev
 
-EXPERIENCE
+ in/mfurquimdev
 
-Machine Learning Engineer at DevGrid
-Jan 2021 – Present
-United Kingdom (Remote)
+ mfurquim.dev
 
-Maintained several microservices that employ machine learning algorithms to estimate the energy usage of household appliances.
+ Brazil
 
-- Achieved up to 59% improvement in Python write operations on Cassandra through the safe utilization of unlogged batches.
-- Resolved daylight saving time and timezone inconsistencies by developing a library that accurately handles arithmetic operations on datetime objects.
+Professional Summary
+Highly skilled software engineer with over 10 years of experience and a diverse background. Committed to team growth and innovation
+through effective mentoring and collaboration. Strong problem-solving skills with a passion for delivering high-quality software solutions.
 
+Work Experience
+Machine Learning Engineer
 
-Embedded Software Developer at Autotrac
-Nov 2019 – Aug 2020
-Brasilia, DF - Brazil
+ Jul 2025 – Present
 
-Maintained the security and logistic features of an embedded system for a customized hardware.
+Amaris | AB InBev
 
-- Employed dependency injection and other SOLID principles to enhance C++ code quality.
-- Created ansible books to automate the conﬁguration of Linux environment for the development of a low-level system.
+ Remote
 
+Developed scalable microservices using a multi-tier routing topology in RabbitMQ to decouple publish-subscribe communication.
+ Implemented an in-memory Redis caching layer to meet low-latency requirements for real-time AI model inference.
+ Applied the Repository Pattern abstract data access logic, allowing for parallel development across teams and improving code maintainability.
+ Monitored production performance and system health using New Relic, ensuring high availability and reliability of deployed ML services.
 
-DevOps Consultant at IBM
-Jan 2019 – Nov 2019
-Brasilia, DF - Brazil
+Back-end Developer
 
-Collaborated with multiple teams to improve observability of the backend services for a prominent banking institution.
+ Jan 2021 – Jul 2025
 
-- Contributed to the development of self-discovering services by utilizing the etcd key-value store, consistent hashing and a federation of Prometheus.
-- Employed PromQL to develop alerts that detected potential DDoS attacks and low performance of new deployments.
+DevGrid | Voltaware
 
+ Remote
 
-Security Software Researcher at LADES at UnB
-Nov 2015 – Jan 2017
-Brasilia, DF - Brazil
+Managed several microservices that employ machine learning algorithms to estimate house appliances’ energy consumption.
+ Achieved up to 59% improvement in Python write operations on Cassandra through the safe utilization of unlogged batches.
+ Iteratively improved domain models following Domain Driven Design approach, increasing efficiency in delivering new features.
 
-Enhanced an Intrusion Detection System with unsupervised machine learning to strengthen the security measures of the Brazilian Army.
-- Configured a Debian server to capture all network packets in promiscuous mode using Wireshark and replay them in a controlled environment.
-- Successfully detected masked malicious network packets using K-Means clustering algorithm and distributed processing with Spark and Hadoop.
+Embedded Software Developer
 
+ Nov 2019 – Aug 2020
 
-Software Engineer Intern at CanAssist at UVic
-Jan 2015 – Apr 2015
-Victoria, BC - Canada
+Autotrac
 
-Developed an elderly care embedded system which notiﬁes relatives in case of emergency.
-- Accomplished a low resource consumption of Raspberry Pi by rotating log using the C/C++ language and the Qt Framework.
-- Created an entire conﬁguration menu using the Asterisk framework with Text to Speech capabilities to be used via a phone call to the Raspberry Pi.
+ Brasilia, DF - Brazil
 
+Maintained security and logistic features of an embedded system for a customized hardware and Linux kernel.
+ Employed dependency injection and other SOLID principles to enhance C++ code quality and maintainability.
+ Implemented monitoring solutions to gather real-time performance data, ensuring optimal system efficiency and responsiveness.
 
-EDUCATION
+DevOps Consultant
 
-Machine Learning DevOps Engineer at Udacity
-Nov 2021 – Dez 2022
-Online
+ Jan 2019 – Nov 2019
+
+IBM
+
+ Brasilia, DF - Brazil
+
+Collaborated with multiple teams to improve observability of the back-end services of a prominent banking institution.
+ Contributed to self-discovering services feature using etcd key-value store, consistent hashing and a federation of Prometheus.
+ Employed PromQL to develop alerts that detected low performance of new deployments and potential DDoS attacks.
+
+Intern Experience
+
+Education
+
+Security Software Researcher
+
+ Nov 2015 – Jul 2016
+
+Machine Learning DevOps Engineer
+
+ Brasilia, DF - Brazil
+
+Udacity
+
+Enhanced an Intrusion Detection System with unsupervised machine learning to
+strengthen the security measures of the Brazilian Army.
+
+ Online
+
+ Configured a Debian server to capture all network packets in promiscuous mode using
+Wireshark and replay them in a controlled environment.
+ Successfully detected masked malicious network packets using K-Means clustering
+algorithm and distributed processing with Spark and Hadoop.
+
+Universidade de Brasilia (UnB)
+
+LADES at UnB
+
+Software Engineer Intern
+
+ Jan 2015 – Apr 2015
+
+CanAssist at UVic
+
+ Victoria, BC - Canada
+
+Developed an elderly care embedded system which notifies relatives in case of
+emergency.
+ Devised an automated data-driven regression testing methodology, improving the
+efficiency of the testing cycle and ensuring alignment with requirements.
+ Accomplished a low resource consumption of Raspberry Pi by rotating log using the
+C/C++ language and the Qt Framework.
+
+ Nov 2021 – Dez 2022
 
 BEng. Software Engineering
-Universidade de Brasilia (UnB)
-Mar 2011 – Jul 2017
-Brasilia, DF - Brazil
+ Brasilia, DF - Brazil
 
-Exchange Student at
 University of Victoria (UVic)
-Jan 2014 – Apr 2015
-Victoria, BC - Canada
+ Victoria, BC - Canada 
 
+ Bash
 
-LANGUAGES
+* Regex
 
-- Portuguese Mother Tongue
-- English Fluent
+ GitFlow
 
+ CI/CD
 
-PROGRAMMING LANGUAGES
+ Jan 2014 – Apr 2015
 
-- Python Working Knowledge
-- C/C++ Working Knowledge
-- GoLang Basic Knowledge
-- Rust Basic Knowledge
+Languages
+ Portuguese
 
+Mother Tongue
 
-DISTINCTIONS
+ English
 
-- Striving for process eﬃciency and automation through bash script and CI/CD
-- Thoroughly eliciting requirements in order to design more efficient solutions
-- Demonstrated competence in rapid project development by participating in Hackathons and Game Jams.
+Fluent
 
+ Python
 
-PUBLICATION
+Working Knowledge
 
-Big Points: An analysis based on game theory at UnB
-Jul 2017
-Brasilia, DF - Brazil
-github.com/mfurquimdev/tcc
+ C/C++
 
-Discovered an imbalance in the Big Points game using the Minimax theorem and Dynamic Programming techniques in C/C++.
+Working Knowledge
 
+ Go
 
-- Linux
-- Bash
-- Regex
-- GitFlow
-- CI/CD
-- Docker
-- RESTful
-- SQL/NoSQL
-- Made with LATEX
+Intermediate Knowledge
+
+ Rust
+
+ Linux
+
+ Mar 2011 – Jul 2017
+
+ Docker
+
+Basic Knowledge
+
+ RESTful
+
+ SQL / NoSQL
+
+Made with typst
+
+
