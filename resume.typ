@@ -294,9 +294,9 @@ Collaborated with multiple teams to improve observability of the back-end servic
     #h(1fr)
     #[
       #set text(size: 7.5pt, weight: "regular")
-      #fa-icon("location-dot", fill: theme.item, solid: false)
+      #fa-icon("canadian-maple-leaf", fill: theme.item, solid: false)
       #h(0.1em)
-      #text(weight: "regular")[Brasilia, DF - Brazil]
+      #text(weight: "regular")[Victoria, BC - Canada]
     ]
     
     Developed an elderly care embedded system which notifies relatives in case of emergency.
